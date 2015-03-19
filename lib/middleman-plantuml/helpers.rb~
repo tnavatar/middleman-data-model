@@ -1,0 +1,6 @@
+module Middleman
+  module PlantUML
+    module Helpers
+    end
+  end
+end
