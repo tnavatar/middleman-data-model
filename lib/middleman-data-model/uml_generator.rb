@@ -16,6 +16,7 @@ module Middleman
         gem_root = spec.gem_dir
         File.join(gem_root, 'vendor', 'plantuml.jar')
       end
+
       
       def initialize(app, controller, options)
         @app = app
@@ -43,6 +44,9 @@ module Middleman
         end
         svg
       end
+
+      private
+      
     end
   end
 end

@@ -1,4 +1,0 @@
-module Middleman
-  class PlantUMLExtension < Extension
-  end
-end
